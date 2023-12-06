@@ -21,20 +21,20 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Install
+## Install Commands
 
-npm install && npm run dev 
+- npm install && npm run dev 
 
-php artisan migrate:fresh
+- php artisan migrate:fresh
  
-php artisan migrate:fresh --seed
+- php artisan migrate:fresh --seed
 
-php artisan cache:clear
-php artisan route:clear
-php artisan view:clear
-php artisan route:cache
-php artisan config:cache
+- php artisan cache:clear
+- php artisan route:clear
+- php artisan view:clear
+- php artisan route:cache
+- php artisan config:cache
 
-php artisan db:seed --class=PermissionTableSeeder
+- php artisan db:seed --class=PermissionTableSeeder
 
-php artisan db:seed --class=CreateAdminUserSeeder
+- php artisan db:seed --class=CreateAdminUserSeeder
